@@ -8,8 +8,8 @@
 //     die( 'Unable to load the "PHP Email Form" Library!');
 //   } 
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
+//   $contact = new PHP_Email_Form;
+//   $contact->ajax = true;
   
   $contact->to = $receiving_email_address;
   $contact->from_name = $_POST['name'];
@@ -17,12 +17,12 @@
   $contact->subject = $_POST['subject'];
 
  
-  $contact->smtp = array(
-    'host' => 'smtp.gmail.com',
-    'username' => 'prasansha.satpathy@gmail.com',
-    'password' => 'pass',
-    'port' => '587'
-  );
+//   $contact->smtp = array(
+//     'host' => 'smtp.gmail.com',
+//     'username' => 'prasansha.satpathy@gmail.com',
+//     'password' => 'pass',
+//     'port' => '587'
+//   );
   
 
   $contact->add_message( $_POST['name'], 'From');
