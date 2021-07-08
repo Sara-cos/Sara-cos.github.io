@@ -9,12 +9,12 @@
 //   } 
 
 //   $contact = new PHP_Email_Form;
-//   $contact->ajax = true;
+//   $contact->ajax = true; $contact->from_email = $_POST['email'];echo $contact->send();add_message( $_POST['email'], 'Email');
   
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+  $to = $receiving_email_address;
+  $from_name = $_POST['name'];
+  $from_email = $_POST['email'];
+  $subject = $_POST['subject'];
 
  
 //   $contact->smtp = array(
@@ -25,9 +25,9 @@
 //   );
   
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+  $body = $_POST['name'], 'From');
+  $body = $_POST['email'], 'Email');
+  $body = $_POST['message'], 'Message', 10);
 
-  echo $contact->send();
+  $send = mail($to, $subject, $body);
 ?>
