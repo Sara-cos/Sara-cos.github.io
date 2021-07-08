@@ -28,12 +28,12 @@ body::before {
 }
 
 a {
-  color: #fff; /*#18d26e*/
+  color: #fff; 
   text-decoration: none;
 }
 
 a:hover {
-  color: #fff;/*#35e888*/
+  color: #fff;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #fff;/*#18d26e*/
+  border-bottom: 2px solid #fff;
   padding-bottom: 6px;
 }
 
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #fff;/*#18d26e*/
+  background: #fff;
 }
 
 @media (max-width: 992px) {
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #fff;/*#18d26e;*/
+  background-color: #fff;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -357,7 +357,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background:  #C4B09D;/*#4ceb95;*/
+  background:  #C4B09D;
   margin: 4px 10px;
 }
 
@@ -377,7 +377,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color:  #C4B09D;/*#18d26e;*/
+  color:  #C4B09D;
 }
 
 .about-me .content ul {
@@ -398,7 +398,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color:  #C4B09D;/*#18d26e;*/
+  color:  #C4B09D;
   line-height: 0;
 }
 
@@ -429,7 +429,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color:  #C4B09D;/*#18d26e;*/
+  color:  #C4B09D;
   border-radius: 50px;
   line-height: 0;
 }
@@ -481,7 +481,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color:  #C4B09D;/*#18d26e;*/
+  background-color:  #C4B09D;
 }
 
 /*--------------------------------------------------------------
@@ -613,7 +613,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color:  #C4B09D;/*#18d26e;*/
+  color:  #C4B09D;
   margin-bottom: 10px;
 }
 
@@ -646,8 +646,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background:  #C4B09D;/*#18d26e;*/
-  border: 2px solid  #C4B09D;/*#18d26e;*/
+  background:  #C4B09D;
+  border: 2px solid  #C4B09D;
 }
 
 /*--------------------------------------------------------------
@@ -761,7 +761,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background:  #C4B09D;/*#18d26e;*/
+  background:  #C4B09D;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -970,7 +970,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color:  #C4B09D;/*#18d26e;*/
+  color:  #C4B09D;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1007,7 +1007,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color:  #C4B09D;/*#18d26e;*/
+  color:  #C4B09D;
 }
 
 .contact .php-email-form {
@@ -1031,7 +1031,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background:  #C4B09D;/*#18d26e;*/
+  background:  #C4B09D;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1051,7 +1051,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid  #C4B09D;/*#18d26e;*/
+  border: 3px solid  #C4B09D;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1095,7 +1095,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background:  #C4B09D;/*#18d26e;*/
+  background:  #C4B09D;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1149,7 +1149,7 @@ section .container {
 }
 
 .credits a {
-  color:  #C4B09D;/*#18d26e;*/
+  color:  #C4B09D;
   transition: 0.3s;
 }
 
