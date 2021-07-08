@@ -25,9 +25,9 @@
 //   );
   
 
-  $body = $_POST['name'], 'From');
-  $body = $_POST['email'], 'Email');
-  $body = $_POST['message'], 'Message', 10);
+  $body = add_message( $_POST['name'], 'From');
+  $body = add_message( $_POST['email'], 'Email');
+  $body = add_message( $_POST['message'], 'Message', 10);
 
   $send = mail($to, $subject, $body);
 ?>
