@@ -1,5 +1,6 @@
 # My Personal Website
-Visit www.prasanshasatpathy.codes for more details.
+Visit www.prasanshasatpathy.me for more details.
+http://prasanshasatpathy.me/
 
 
 Its still under development.
