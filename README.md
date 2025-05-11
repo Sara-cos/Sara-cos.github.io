@@ -1,6 +1,6 @@
 # My Personal Website
-Visit www.prasanshasatpathy.me for more details.
-http://prasanshasatpathy.me/
+Visit www.prasanshasatpathy.com for more details.
+http://prasanshasatpathy.com/
 
 
 Its still under development.
